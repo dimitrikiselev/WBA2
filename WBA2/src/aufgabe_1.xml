@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <formular>
 	<gruppenleiter>
+	<person>
 		<gruppe> id="01"" </gruppe>
 		<vorname>Vorname  </vorname>
 		<nachname> name </nachname>
@@ -9,17 +10,18 @@
 		<erfahrung choise="2"></erfahrung>
 		<schlagzeug boolean="true"></schlagzeug>
 		<comment>  ............</comment>
-	</gruppenleiter>
+	</person>
 	
-	<person1>
+	<person>
 		<gruppe> id="02"" </gruppe>
 		<vorname>Vorname  </vorname>
 		<nachname> name </nachname>
 		<email>Email</email>
 		<bday format="dd.mm.yyyy">01.06.</bday>
-		<erfahrung choise="2"></erfahrung>
-		<schlagzeug boolean="true"></schlagzeug>
-	</person1>
+		<erfahrung choise="1"></erfahrung>
+		<schlagzeug boolean="false"></schlagzeug>
+	</person>
 
+</gruppenleiter>
 
 </formular>
