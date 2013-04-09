@@ -6,22 +6,23 @@
 		<vorname>Vorname  </vorname>
 		<nachname> name </nachname>
 		<email>Email</email>
-		<bday format="dd.mm.yyyy">01.06.</bday>
+		<bday format="dd.mm.yyyy">01.06.1990</bday>
 		<erfahrung choise="2"></erfahrung>
 		<schlagzeug boolean="true"></schlagzeug>
 		<comment>  ............</comment>
 	</person>
+</gruppenleiter>
 	
 	<person>
-		<gruppe> id="02"" </gruppe>
+		<gruppe> id="01"" </gruppe>
 		<vorname>Vorname  </vorname>
 		<nachname> name </nachname>
 		<email>Email</email>
-		<bday format="dd.mm.yyyy">01.06.</bday>
+		<bday format="dd.mm.yyyy">03.07.1993</bday>
 		<erfahrung choise="1"></erfahrung>
 		<schlagzeug boolean="false"></schlagzeug>
 	</person>
 
-</gruppenleiter>
+
 
 </formular>
