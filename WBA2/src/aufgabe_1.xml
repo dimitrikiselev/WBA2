@@ -1,3 +1,25 @@
-<recept>
-Kuchen
-</recept>
+<?xml version="1.0" encoding="UTF-8"?>
+<formular>
+	<gruppenleiter>
+		<gruppe> id="01"" </gruppe>
+		<vorname>Vorname  </vorname>
+		<nachname> name </nachname>
+		<email>Email</email>
+		<bday format="dd.mm.yyyy">01.06.</bday>
+		<erfahrung choise="2"></erfahrung>
+		<schlagzeug boolean="true"></schlagzeug>
+		<comment>  ............</comment>
+	</gruppenleiter>
+	
+	<person1>
+		<gruppe> id="02"" </gruppe>
+		<vorname>Vorname  </vorname>
+		<nachname> name </nachname>
+		<email>Email</email>
+		<bday format="dd.mm.yyyy">01.06.</bday>
+		<erfahrung choise="2"></erfahrung>
+		<schlagzeug boolean="true"></schlagzeug>
+	</person1>
+
+
+</formular>
