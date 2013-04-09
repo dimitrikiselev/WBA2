@@ -5,7 +5,7 @@
 		<gruppe> id="01"" </gruppe>
 		<vorname>Vorname  </vorname>
 		<nachname> name </nachname>
-		<email>Email</email>
+		<email>test@mail.com</email>
 		<bday format="dd.mm.yyyy">01.06.1990</bday>
 		<erfahrung choise="2"></erfahrung>
 		<schlagzeug boolean="true"></schlagzeug>
@@ -17,7 +17,7 @@
 		<gruppe> id="01"" </gruppe>
 		<vorname>Vorname  </vorname>
 		<nachname> name </nachname>
-		<email>Email</email>
+		<email>test@mail.com</email>
 		<bday format="dd.mm.yyyy">03.07.1993</bday>
 		<erfahrung choise="1"></erfahrung>
 		<schlagzeug boolean="false"></schlagzeug>

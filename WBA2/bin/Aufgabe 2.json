@@ -1,0 +1,23 @@
+{
+    "person":[
+        {
+            "gruppe":1,
+            "vorname":"Vorname",
+            "nachname":"Name",
+            "email":"test@mail.com",
+            "bday":"01.01.1900",
+            "erfahrung":3,
+            "schlagzeug":true,
+        },
+        {
+            "gruppe":1,
+            "vorname":"Vorname",
+            "nachname":"Name",
+            "email":"test@mail.com",
+            "bday":"01.02.1903,
+            "erfahrung":2,
+            "schlagzeug":false,
+        }
+    ],
+    "comment":"........."
+}
