@@ -67,7 +67,7 @@
 											<s:attribute name="einheit" type="s:string"/>
 										</s:complexType>
 									</s:element>
-									<s:element name ="Beschreibung" type="s:string"/>#
+									<s:element name ="Beschreibung" type="s:string"/>
 								</s:sequence>
 							</s:complexType>
 						</s:element>
