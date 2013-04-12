@@ -11,14 +11,14 @@
 		    <zutat menge="200" einheit="g">Butter</zutat>
             <zutat menge="200" einheit="g">Zucker</zutat>
             <zutat menge="200" einheit="g">
-                <link src="http://www.gm.fh-koeln.de/~mi1242/wba2/rezepte/zutaten/Schokolade">Schokolade</link>
-                <link src="http://www.gm.fh-koeln.de/~mi1242/wba2/rezepte/zutaten/Blockschokolade">Blockschokolade</link>
+                <link src="http://www.chefkoch.de/rezept-zutateninfo-com.php?ID=1618">Schokolade</link>
+                <link src="http://www.chefkoch.de/rezept-zutateninfo-com.php?ID=1618">Blockschokolade</link>
             </zutat>
             <zutat menge="120" einheit="g">Mehl</zutat>
             <zutat menge="0.5" einheit="TL">Backpulver</zutat>
             <zutat menge="1" einheit="Pkt">Vanillezucker</zutat>
             <zutat menge="4" einheit="Stk">
-                <link src="http://www.gm.fh-koeln.de/~mi1242/wba2/rezepte/zutaten/Ei">Ei(er)</link>
+                <link src="http://www.chefkoch.de/rezept-zutateninfo-com.php?ID=36">Ei(er)</link>
             </zutat>
 		</zutaten>
 		
