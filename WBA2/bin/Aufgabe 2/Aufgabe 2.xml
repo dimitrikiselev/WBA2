@@ -7,8 +7,8 @@
 		<nachname> name </nachname>
 		<email>test@mail.com</email>
 		<bday format="dd.mm.yyyy">01.06.1990</bday>
-		<erfahrung choice="2"></erfahrung>
-		<schlagzeug boolean="true"></schlagzeug>
+		<erfahrung choice="2"/>
+		<schlagzeug boolean="true"/>
 		<comment>  ............</comment>
 	</person>
 </gruppenleiter>
@@ -19,8 +19,8 @@
 		<nachname> name </nachname>
 		<email>test@mail.com</email>
 		<bday format="dd.mm.yyyy">03.07.1993</bday>
-		<erfahrung choice="1"></erfahrung>
-		<schlagzeug boolean="false"></schlagzeug>
+		<erfahrung choice="1"/>
+		<schlagzeug boolean="false"/>
 	</person>
 
 

@@ -1,1 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<rezepte>
+	<rezept>
+		<fotos>
+			<foto id ="01" user="asterix" src="http://static.chefkoch-cdn.de/ck.de/rezepte/2/2464/42942-960x720-lenchen-s-schokoladenkuchen.jpg"></foto>
+			<foto id ="02" user="hulk"  src="http://static.chefkoch-cdn.de/ck.de/rezepte/2/2464/42942-960x720-lenchen-s-schokoladenkuchen.jpg"></foto>
+			<!-- ... -->
+		</fotos>
+		
+		<zutaten>
+		    <zutat menge="200" einheit="g">Butter</zutat>
+            <zutat menge="200" einheit="g">Zucker</zutat>
+            <zutat menge="200" einheit="g">
+                <link src="http://www.gm.fh-koeln.de/~mi1242/wba2/rezepte/zutaten/Schokolade">Schokolade</link>
+                <link src="http://www.gm.fh-koeln.de/~mi1242/wba2/rezepte/zutaten/Blockschokolade">Blockschokolade</link>
+            </zutat>
+            <zutat menge="120" einheit="g">Mehl</zutat>
+            <zutat menge="0.5" einheit="TL">Backpulver</zutat>
+            <zutat menge="1" einheit="Pkt">Vanillezucker</zutat>
+            <zutat menge="4" einheit="Stk">
+                <link src="http://www.gm.fh-koeln.de/~mi1242/wba2/rezepte/zutaten/Ei">Ei(er)</link>
+            </zutat>
+		</zutaten>
+		
+
+        <zubereitung>
+        	<schwierigkeit value="normal" />
+        	<arbeitszeit value="60" />
+        	<brennwert value="295" einheit="kcal"/>
+        	<beschreibung>Butter und Schokolade im Wasserbad schmelzen. Eier trennen. Eiweiß steif schlagen. Eigelbe, Zucker und Vanillezucker verrühren. Geschmolzene Butter-Schokomasse hinzufügen und mischen. Mehl mit dem Backpulver in die Masse sieben und zum Schluss die steifen Eiweiße vorsichtig unterheben. In eine gut gefettete Form geben.
+					      Bei 180°Grad 40 – 50 Minuten backen.
+			</beschreibung>
+			
+        </zubereitung>
+        
+
+        <kommentare>
+	        <kommentar id="1">
+	            <username>hulk43</username>    
+	            <userpic src=" ..."></userpic>
+	            <commentdate>01.01.1900 00:00</commentdate>
+	            <text>Habe ihn eben gebacken und bin begeistert.Super Rezept:-) LG Hulk </text>
+	    	</kommentar>
+		    
+		    <kommentar id="2">
+	            <username>asterix12</username>
+	            <userpic src=" ..."></userpic>
+	            <commentdate>01.01.1900 00:01</commentdate>
+	            <text>Cool </text>
+	    	</kommentar>
+    	</kommentare>
+	</rezept>
+</rezepte>
