@@ -7,13 +7,14 @@
 			<s:element maxOccurs="unbounded" name="rezept">
 				<s:complexType>
 					<s:sequence>
+						<s:element type="s:string" name="title"/>
+              			<s:element type="s:string" name="subtitle" minOccurs="0"/>
 						<s:element name="fotos">
 							<s:complexType>
 								<s:sequence>
 									<s:element name="foto" minOccurs="0">
 										<s:complexType>
 											<s:sequence>
-												<s:element name="id" type="s:positiveInteger"/>
 												<s:element name="user" type="s:string"/>
 												<s:element name="src" type="s:anyURI"/>
 											</s:sequence>
@@ -37,7 +38,7 @@
 												    </s:simpleType>
 												</s:element> 
 												<s:element name ="Einheit" minOccurs="0" maxOccurs="1"/>
-												<s:element name ="Name"/>
+												<s:element name ="ZutatenName"/>
 											</s:sequence>
 										</s:complexType>
 									</s:element>
@@ -59,12 +60,13 @@
 									<s:element name ="Arbeitszeit ">
 										<s:complexType>
 											<s:attribute name="value" type="s:positiveInteger" />
+											<s:attribute name="einheit" type="s:string" />
 										</s:complexType>
 									</s:element>
 									<s:element name ="Brennwert">
 										<s:complexType>
 											<s:attribute name="value" type="s:positiveInteger"/>
-											<s:attribute name="einheit" type="s:string"/>
+											<s:attribute name="einheit" type="s:string" />
 										</s:complexType>
 									</s:element>
 									<s:element name ="Beschreibung" type="s:string"/>
