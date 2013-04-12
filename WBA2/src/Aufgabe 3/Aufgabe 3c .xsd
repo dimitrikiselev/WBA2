@@ -13,7 +13,7 @@
 									<s:element name="foto" minOccurs="0">
 										<s:complexType>
 											<s:sequence>
-												<s:element name="id" type="s:int"/>
+												<s:element name="id" type="s:positiveInteger"/>
 												<s:element name="user" type="s:string"/>
 												<s:element name="src" type="s:anyURI"/>
 											</s:sequence>
@@ -47,21 +47,23 @@
 						<s:element name="Zubereitung">
 							<s:complexType>
 								<s:sequence>
-									<s:simpleType name="schwierigkeit">
-										<s:restriction base="s:string">
-									    	<s:enumeration value="leicht"/>
-									        <s:enumeration value="normal"/>
-									        <s:enumeration value="schwer"/>
-									    </s:restriction>
-									</s:simpleType>
+									<s:element name="schwierigkeit" >
+										<s:simpleType >
+											<s:restriction base="s:string">
+										    	<s:enumeration value="leicht"/>
+										        <s:enumeration value="normal"/>
+										        <s:enumeration value="schwer"/>
+										    </s:restriction>
+										</s:simpleType>
+									</s:element>
 									<s:element name ="Arbeitszeit ">
 										<s:complexType>
-											<s:attribute name="value" type="s:int" />
+											<s:attribute name="value" type="s:positiveInteger" />
 										</s:complexType>
 									</s:element>
 									<s:element name ="Brennwert">
 										<s:complexType>
-											<s:attribute name="value" type="s:int"/>
+											<s:attribute name="value" type="s:positiveInteger"/>
 											<s:attribute name="einheit" type="s:string"/>
 										</s:complexType>
 									</s:element>
@@ -85,8 +87,9 @@
 	                            </s:sequence>
 	                        </s:complexType>
 	                    </s:element>	
-				</s:sequence>
-			</s:complexType>
+					</s:sequence>
+				</s:complexType>
+		  	</s:element>
 		</s:sequence>
 	</s:complexType>
 </s:element>
