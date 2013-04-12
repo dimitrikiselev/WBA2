@@ -6,7 +6,7 @@
 			<foto id ="02" user="hulk"  src="http://static.chefkoch-cdn.de/ck.de/rezepte/2/2464/42942-960x720-lenchen-s-schokoladenkuchen.jpg"></foto>
 			<!-- ... -->
 		</fotos>
-		
+		<portionen>16</portionen>
 		<zutaten>
 		    <zutat menge="200" einheit="g">Butter</zutat>
             <zutat menge="200" einheit="g">Zucker</zutat>

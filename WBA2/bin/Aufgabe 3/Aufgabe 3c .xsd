@@ -22,13 +22,20 @@
 								</s:sequence>
 							</s:complexType>
 						</s:element>
+						<s:element name="portionen" type="s:positiveInteger"/>
 						<s:element name="zutaten">
 							<s:complexType>
 								<s:sequence>
 									<s:element minOccurs="1" maxOccurs="unbounded" name="zutat">
 										<s:complexType>
 											<s:sequence>
-												<s:element name ="Menge" minOccurs="0" maxOccurs="1"/>
+												<s:element name="Menge">
+													<s:simpleType>
+														<s:restriction base="s:decimal">
+												       		<s:minInclusive value="0"/>
+												    	</s:restriction>
+												    </s:simpleType>
+												</s:element> 
 												<s:element name ="Einheit" minOccurs="0" maxOccurs="1"/>
 												<s:element name ="Name"/>
 											</s:sequence>
