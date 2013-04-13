@@ -12,7 +12,7 @@
 						<s:element name="fotos">
 							<s:complexType>
 								<s:sequence>
-									<s:element name="foto" minOccurs="0">
+									<s:element name="foto" minOccurs="0" maxOccurs="unbounded" >
 										<s:complexType>
 											<s:sequence>
 												<s:element name="user" type="s:string"/>
@@ -37,8 +37,8 @@
 												    	</s:restriction>
 												    </s:simpleType>
 												</s:element> 
-												<s:element name ="Einheit" minOccurs="0" maxOccurs="1"/>
-												<s:element name ="ZutatenName"/>
+												<s:element name ="Einheit" type="s:string" minOccurs="0" maxOccurs="1"/>
+												<s:element name ="ZutatenName" type="s:string"/>
 											</s:sequence>
 										</s:complexType>
 									</s:element>
@@ -48,7 +48,7 @@
 						<s:element name="Zubereitung">
 							<s:complexType>
 								<s:sequence>
-									<s:element name="schwierigkeit" >
+									<s:element name="Schwierigkeit" >
 										<s:simpleType >
 											<s:restriction base="s:string">
 										    	<s:enumeration value="leicht"/>
@@ -57,18 +57,8 @@
 										    </s:restriction>
 										</s:simpleType>
 									</s:element>
-									<s:element name ="Arbeitszeit ">
-										<s:complexType>
-											<s:attribute name="value" type="s:positiveInteger" />
-											<s:attribute name="einheit" type="s:string" />
-										</s:complexType>
-									</s:element>
-									<s:element name ="Brennwert">
-										<s:complexType>
-											<s:attribute name="value" type="s:positiveInteger"/>
-											<s:attribute name="einheit" type="s:string" />
-										</s:complexType>
-									</s:element>
+									<s:element name ="Arbeitszeit" type="s:integer"/>
+									<s:element name ="Brennwert" type="s:integer"/>
 									<s:element name ="Beschreibung" type="s:string"/>
 								</s:sequence>
 							</s:complexType>

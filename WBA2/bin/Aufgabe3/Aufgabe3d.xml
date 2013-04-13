@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rezepte>
     <rezept>
-        <titel>Urmelis Braten - Pfann'l mit Camembert</titel>
-        <subtitel>schnelle und leckere Resteverwertung von Braten jeglicher Art</subtitel>
+        <title>Urmelis Braten - Pfannl mit Camembert</title>
+        <subtitle>schnelle und leckere Resteverwertung von Braten jeglicher Art</subtitle>
         <fotos>
             <foto>
                 <user>urmeli75</user>
@@ -16,55 +16,57 @@
         <portionen>3</portionen>
         <zutaten>
             <zutat>
+                <Menge>400</Menge>
+                <Einheit>g</Einheit>
                 <ZutatenName>Braten, Rind, Schwein oder Geflügel, Reste, gerne auch mehr </ZutatenName>
-                <menge>400</menge>
-                <einheit>g</einheit>
             </zutat>
             <zutat>
+                <Menge>500</Menge>
+                <Einheit>g</Einheit>
                 <ZutatenName>Kartoffel(n), gegart und gepellt </ZutatenName>
-                <menge>500</menge>
-                <einheit>g</einheit>
             </zutat>
             <zutat>
+                <Menge>150</Menge>
+                <Einheit>g</Einheit>
                 <ZutatenName>Nudeln, gegart </ZutatenName>
-                <menge>150</menge>
-                <einheit>g</einheit>
             </zutat>
             <zutat>
+                <Menge>150</Menge>
+                <Einheit>g</Einheit>
                 <ZutatenName>Camembert</ZutatenName>
-                <menge>150</menge>
-                <einheit>g</einheit>
             </zutat>
             <zutat>
+                <Menge>100</Menge>
+                <Einheit>ml</Einheit>
                 <ZutatenName>Bratensauce, Reste, Menge nach Geschmack </ZutatenName>
-                <menge>100</menge>
-                <einheit>ml</einheit>
             </zutat>
             <zutat>
+                <Menge>2</Menge>
+                <Einheit>m-große</Einheit>
                 <ZutatenName>Zwiebel(n) </ZutatenName>
-                <menge>2</menge>
-                <einheit>m-große</einheit>
             </zutat>
             <zutat>
+                <Menge>1</Menge>
+                <Einheit>kleine</Einheit>
                 <ZutatenName>Knoblauchzehe(n), wer mag </ZutatenName>
-                <menge>1</menge>
-                <einheit>kleine</einheit>
             </zutat>
             <zutat>
+                <Menge>2</Menge>
+                <Einheit>EL</Einheit>
                 <ZutatenName>Butterschmalz </ZutatenName>
-                <menge>2</menge>
-                <einheit>EL</einheit>
             </zutat>
             <zutat>
+                <Menge>2</Menge>
+                <Einheit>EL</Einheit>
                 <ZutatenName>Kräutersalz </ZutatenName>
-                <menge>2</menge>
-                <einheit>EL</einheit>
             </zutat>
         </zutaten>
-        <arbeitszeit einheit="min">20</arbeitszeit>
-        <schwierigkeitsgrad>normal</schwierigkeitsgrad>
-        <brennwert/>
-        <zubereitung>Die Bratenreste klein würfeln, die Zwiebeln in halbe Ringe teilen und den Knoblauch fein hacken. ...</zubereitung>
+        <Zubereitung>
+            <Schwierigkeit>normal</Schwierigkeit>
+            <Arbeitszeit>12</Arbeitszeit>
+            <Brennwert>315</Brennwert>
+            <Beschreibung>...</Beschreibung>
+        </Zubereitung>
         <kommentare>
             <kommentar>
                 <username>kleinehobbits</username>
@@ -75,8 +77,8 @@
         </kommentare>
     </rezept>
     <rezept>
-        <titel>Ei auf Toast</titel>
-        <subtitel>mit Salz</subtitel>
+        <title>Ei auf Toast</title>
+        <subtitle>mit Salz</subtitle>
         <fotos>
             <foto>
                 <user>hulz</user>
@@ -86,15 +88,17 @@
         <portionen>1</portionen>
         <zutaten>
             <zutat>
+                <Menge>0.0</Menge>
+                <Einheit>g</Einheit>
                 <ZutatenName>ZutatenName</ZutatenName>
-                <menge>0.0</menge>
-                <einheit>einheit</einheit>
             </zutat>
         </zutaten>
-        <arbeitszeit einheit="min">60</arbeitszeit>
-        <schwierigkeitsgrad>leicht</schwierigkeitsgrad>
-        <brennwert einheit="kcal">69</brennwert>
-        <zubereitung>zubereitung</zubereitung>
+        <Zubereitung>
+            <Schwierigkeit>leicht</Schwierigkeit>
+            <Arbeitszeit>30</Arbeitszeit>
+            <Brennwert>5465</Brennwert>
+            <Beschreibung>...</Beschreibung>
+        </Zubereitung>
         <kommentare>
             <kommentar>
                 <username>holz</username>
