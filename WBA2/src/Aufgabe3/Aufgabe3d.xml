@@ -2,7 +2,7 @@
 <rezepte>
     <rezept>
         <titel>Urmelis Braten - Pfann'l mit Camembert</titel>
-        <subtitel>schnelle und leckere Resteverwertung von Braten jeglicher Art<subtitel>
+        <subtitel>schnelle und leckere Resteverwertung von Braten jeglicher Art</subtitel>
         <fotos>
             <foto>
                 <user>urmeli75</user>
@@ -93,7 +93,7 @@
         </zutaten>
         <arbeitszeit einheit="min">60</arbeitszeit>
         <schwierigkeitsgrad>leicht</schwierigkeitsgrad>
-        <brennwert einheit="kcal">1337</brennwert>
+        <brennwert einheit="kcal">69</brennwert>
         <zubereitung>zubereitung</zubereitung>
         <kommentare>
             <kommentar>
