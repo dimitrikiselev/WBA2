@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rezepte>
+    <rezept>
+        <titel>Urmelis Braten - Pfann'l mit Camembert</titel>
+        <subtitel>schnelle und leckere Resteverwertung von Braten jeglicher Art<subtitel>
+        <fotos>
+            <foto>
+                <user>urmeli75</user>
+                <src>http://static.chefkoch-cdn.de/ck.de/rezepte/137/137978/508867-960x720-urmelis-braten-pfann-l-mit-camembert.jpg</src>
+            </foto>
+            <foto>
+                <user>kleinehobbits</user>
+                <src>http://static.chefkoch-cdn.de/ck.de/rezepte/137/137978/508864-960x720-urmelis-braten-pfann-l-mit-camembert.jpg</src>
+            </foto>
+        </fotos>
+        <portionen>3</portionen>
+        <zutaten>
+            <zutat>
+                <ZutatenName>Braten, Rind, Schwein oder Geflügel, Reste, gerne auch mehr </ZutatenName>
+                <menge>400</menge>
+                <einheit>g</einheit>
+            </zutat>
+            <zutat>
+                <ZutatenName>Kartoffel(n), gegart und gepellt </ZutatenName>
+                <menge>500</menge>
+                <einheit>g</einheit>
+            </zutat>
+            <zutat>
+                <ZutatenName>Nudeln, gegart </ZutatenName>
+                <menge>150</menge>
+                <einheit>g</einheit>
+            </zutat>
+            <zutat>
+                <ZutatenName>Camembert</ZutatenName>
+                <menge>150</menge>
+                <einheit>g</einheit>
+            </zutat>
+            <zutat>
+                <ZutatenName>Bratensauce, Reste, Menge nach Geschmack </ZutatenName>
+                <menge>100</menge>
+                <einheit>ml</einheit>
+            </zutat>
+            <zutat>
+                <ZutatenName>Zwiebel(n) </ZutatenName>
+                <menge>2</menge>
+                <einheit>m-große</einheit>
+            </zutat>
+            <zutat>
+                <ZutatenName>Knoblauchzehe(n), wer mag </ZutatenName>
+                <menge>1</menge>
+                <einheit>kleine</einheit>
+            </zutat>
+            <zutat>
+                <ZutatenName>Butterschmalz </ZutatenName>
+                <menge>2</menge>
+                <einheit>EL</einheit>
+            </zutat>
+            <zutat>
+                <ZutatenName>Kräutersalz </ZutatenName>
+                <menge>2</menge>
+                <einheit>EL</einheit>
+            </zutat>
+        </zutaten>
+        <arbeitszeit einheit="min">20</arbeitszeit>
+        <schwierigkeitsgrad>normal</schwierigkeitsgrad>
+        <brennwert/>
+        <zubereitung>Die Bratenreste klein würfeln, die Zwiebeln in halbe Ringe teilen und den Knoblauch fein hacken. ...</zubereitung>
+        <kommentare>
+            <kommentar>
+                <username>kleinehobbits</username>
+                <userpic>http://static.chefkoch-cdn.de/ck.de/userpic/40cd32d2d91ca6bc6e8e4f6da559799a-60fix.jpg</userpic>
+                <commentdate>2012-10-08T13:19:00+01:00</commentdate>
+                <text>Hallo Urmeli, das ist mal ein tolles Rezept für sämtliche Bratenreste. ...</text>
+            </kommentar>
+        </kommentare>
+    </rezept>
+    <rezept>
+        <titel>Ei auf Toast</titel>
+        <subtitel>mit Salz</subtitel>
+        <fotos>
+            <foto>
+                <user>hulz</user>
+                <src>http://erotic-picture.org</src>
+            </foto>
+        </fotos>
+        <portionen>1</portionen>
+        <zutaten>
+            <zutat>
+                <ZutatenName>ZutatenName</ZutatenName>
+                <menge>0.0</menge>
+                <einheit>einheit</einheit>
+            </zutat>
+        </zutaten>
+        <arbeitszeit einheit="min">60</arbeitszeit>
+        <schwierigkeitsgrad>leicht</schwierigkeitsgrad>
+        <brennwert einheit="kcal">1337</brennwert>
+        <zubereitung>zubereitung</zubereitung>
+        <kommentare>
+            <kommentar>
+                <username>holz</username>
+                <userpic>http://www.baumstumpf.com/baum/userpic.jpg</userpic>
+                <commentdate>2012-09-11T16:23:21+01:00</commentdate>
+                <text>stark!</text>
+            </kommentar>
+        </kommentare>
+    </rezept>
+</rezepte>

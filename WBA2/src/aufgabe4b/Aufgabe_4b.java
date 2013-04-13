@@ -1,9 +1,6 @@
 package aufgabe4b;
 
 import aufgabe4.*;
-import aufgabe4.Rezepte.Rezept;
-import aufgabe4.Rezepte.Rezept.Zubereitung;
-import aufgabe4.Rezepte.Rezept.Zutaten.Zutat;
 
 import java.io.File;
 import java.io.FileInputStream;
