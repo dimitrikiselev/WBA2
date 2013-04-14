@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<rezepte>
+<?xml version="1.0" encoding="UTF-8"?>
+<rezepte xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Aufgabe 3c .xsd">
     <rezept>
         <title>Urmelis Braten - Pfannl mit Camembert</title>
         <subtitle>schnelle und leckere Resteverwertung von Braten jeglicher Art</subtitle>
